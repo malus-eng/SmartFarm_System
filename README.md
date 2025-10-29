@@ -22,6 +22,10 @@ Arduino MKR WiFi 1010：purpose-Main microcontroller, Power-3.3V
 FSR Sensor ：model-FSR406 + 10kΩ,purpose-Detect weight, Pin-A0
 IR Break Beam：model-3mm pair, purpose-Detect crossing and covering, Pin-
 Button：model-L03,purpose-Reset system, Pin-D2, Power-3.3V
+<p align="center">
+  <img src="images/connecting.png" alt="Smart Farm Sketch" width="400">
+</p>
+
 > All grounds are connected together (GND shared across FSR, IR, and button).
 
 ## Software Logic
