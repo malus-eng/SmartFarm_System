@@ -85,7 +85,9 @@ If the IR beam is continuously blocked for more than seven seconds, the system w
 2. Function: After adding a button, if the system enters alarm mode, the user needs to press the button to confirm receiving the alarm. This design ensures the user receives the system's alarm. Reflection: If an object such as a rock is covering the pressure sensor, it may cause the system to misjudge; the sensor needs to detect whether there is an object above it.
 3. Function: With the addition of an IR Break Beam, it means it can detect whether there is an object above the pressure sensor. If the laser is blocked for a long time, an alarm will be sounded. Reflection: Since a laser sensor has been added, can it be further used for counting?
 4. Function: With the addition of a new code to the laser, the number of objects that the laser sensor can detect is determined, enabling a counting function. Reflection: How to distinguish between underweight children and animals?
-
+<p align="center">
+  <img src="images/SMARTFARM.png" alt="The final version" width="400">
+</p>
 ## Future Improvements
 1. Consider how to identify and distinguish between young children and pests (potentially by increasing the number of laser sensors to differentiate them by measuring height and movement speed).
 
