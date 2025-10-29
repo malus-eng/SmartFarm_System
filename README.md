@@ -66,6 +66,16 @@ if (beamBlockedDuration > 7000) {
 ```
 If the IR beam is continuously blocked for more than seven seconds, the system will automatically recognize that there is debris obstructing the pressure sensor and it needs to be removed. At the same time, the Arduino will also transmit a signal to keep the LED flashing.
 
+### LED Behaviour Summary
+
+| Colour  | Meaning                       | Condition              |
+|----------|--------------------------------|------------------------|
+| Blue     | System standby                | No sensor triggered    |
+| Green    | Human detected                | FSR > 200 g            |
+| Red      | Intruder detected             | FSR < 200 g            |
+| Yellow   | Floating/non-ground intrusion | Beam broken, no weight |
+| Magenta  | Beam misalignment alert       | Beam blocked >7 s      |
+
 ## Testing & Iterations
 1. Function: Simply includes a pressure sensor to detect the weight of an object and determine whether it is a person or an animal. Reflection: After determining the pressure comes from a harmful organism, the LED should remain red until the user confirms receiving the alarm; a confirmation device needs to be added.
 2. Function: After adding a button, if the system enters alarm mode, the user needs to press the button to confirm receiving the alarm. This design ensures the user receives the system's alarm. Reflection: If an object such as a rock is covering the pressure sensor, it may cause the system to misjudge; the sensor needs to detect whether there is an object above it.
