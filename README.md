@@ -29,7 +29,7 @@ Button：model-L03,purpose-Reset system, Pin-D2, Power-3.3V
 > All grounds are connected together (GND shared across FSR, IR, and button).
 
 ## Software Logic
-Next, I will briefly explain the core software logic involved in this project to help you understand the core logic of the system.
+The system's functional implementation mainly depends on the mkr1010_mqtt_simple.ino file:[mkr1010_mqtt_simple](Software/mkr1010_mqtt_simple.ino).Next, I will briefly explain the core software logic involved in this project to help you understand the core logic of the system. 
 (1) FSR Reading and Weight Classification
 ```
 int fsrValue = analogRead(A0);
@@ -88,7 +88,7 @@ If the IR beam is continuously blocked for more than seven seconds, the system w
 After four updates and iterations, the final system performance is as follows:[Demo](media/demo_video.mp4)
 
 <p align="center">
-  <img src="images/SMARTFARM.png" alt="The final version" width="400">
+  <img src="images/SMARTFARM.jpg" alt="The final version" width="400">
 </p>
 ## Future Improvements
 1. Consider how to identify and distinguish between young children and pests (potentially by increasing the number of laser sensors to differentiate them by measuring height and movement speed).
