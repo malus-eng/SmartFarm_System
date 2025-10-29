@@ -23,7 +23,7 @@ FSR Sensor ：model-FSR406 + 10kΩ,purpose-Detect weight, Pin-A0
 IR Break Beam：model-3mm pair, purpose-Detect crossing and covering, Pin-
 Button：model-L03,purpose-Reset system, Pin-D2, Power-3.3V
 <p align="center">
-  <img src="images/connecting.png" alt="Smart Farm Sketch" width="400">
+  <img src="Hardware/connecting.png" alt="Partial circuit simulation diagram" width="400">
 </p>
 
 > All grounds are connected together (GND shared across FSR, IR, and button).
