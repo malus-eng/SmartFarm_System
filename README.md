@@ -3,7 +3,7 @@ This project simulates a smart monitoring system developed specifically for farm
 
 ## Concept & Inspiration
 The inspiration for this project mainly came from my understanding of the current state of livestock farming in the UK. I learned from a report that European rabbits have a significant impact on British livestock farming, as they frequently sneak into pastures and graze on grass and tree roots, causing grassland degradation. Faced with this problem, I noticed that rabbits and humans could be quickly distinguished by recognizing the weight difference. Therefore, I began to sketch out my ideas on paper, as shown in the first draft of the system below:
-![Smart Farm Sketch](images/FARM_SKETCH（1）.jpg)
+![Smart Farm Sketch](images/FARM_SKETCH(1).jpg)
 
 ## System Design
 I've included a circuit diagram and detailed explanation of the structure of my entire system.
